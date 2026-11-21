@@ -48,10 +48,10 @@ const export_ = {
 	videoAudioFade: 'Video & Audio Fade',
 	enableDisableFade:
 		'Enable or disable video and audio fade effects during export. Fade-in and fade-out help make the video start and end smoothly.',
-	quranCaptionPromotion: 'Promote Quran Caption',
-	addQuranCaptionPromotion: 'Add a Quran Caption promotion card',
+	quranCaptionPromotion: 'Promote Sunnah Caption',
+	addQuranCaptionPromotion: 'Add a Sunnah Caption promotion card',
 	quranCaptionPromotionDescription:
-		'Adds a 3-second card with the Quran Caption logo and website before or after the video.',
+		'Adds a 3-second card with the Sunnah Caption logo and website before or after the video.',
 	quranCaptionPromotionPosition: 'Promotion position',
 	quranCaptionPromotionAtStart: 'At the beginning',
 	quranCaptionPromotionAtEnd: 'At the end',
@@ -313,7 +313,7 @@ const export_ = {
 	reflectionAuthDescription:
 		'A Quran.com account is required only when you save or publish your reflection.',
 	reflectionPermissionDescription:
-		'Quran Caption needs an additional Quran.com permission for Notes and QuranReflect.',
+		'Sunnah Caption needs an additional Quran.com permission for Notes and QuranReflect.',
 	reflectionConnect: 'Connect with Quran.com',
 	reflectionSubmitting: 'Saving…',
 	reflectionPrivateSuccess: 'Saved privately to your Quran.com notes.',

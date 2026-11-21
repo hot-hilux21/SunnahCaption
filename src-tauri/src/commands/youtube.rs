@@ -12,7 +12,7 @@ use tauri_plugin_opener::OpenerExt;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use tokio::net::TcpListener;
 
-const SERVICE_NAME: &str = "QuranCaption";
+const SERVICE_NAME: &str = "SunnahCaption";
 const REFRESH_TOKEN_KEY: &str = "youtube_refresh_token";
 const ACCOUNT_EMAIL_KEY: &str = "youtube_account_email";
 const OAUTH_TIMEOUT: Duration = Duration::from_secs(180);

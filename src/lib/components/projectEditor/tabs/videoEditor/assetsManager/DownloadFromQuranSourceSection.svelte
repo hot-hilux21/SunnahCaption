@@ -212,7 +212,7 @@
 				};
 			}
 		} else {
-			// Pour QDC, on passe d'abord par le proxy Quran Caption pour ne pas exposer les clés.
+			// Pour QDC, on passe d'abord par le proxy Sunnah Caption pour ne pas exposer les clés.
 			const chapterAudio = await QdcRecitationService.getChapterAudio(
 				option.qdcRecitationId!,
 				surahId

@@ -75,10 +75,10 @@
 			endpoint.searchParams.set(
 				'subject',
 				activeTab === 'review'
-					? 'Quran Caption Review'
+					? 'Sunnah Caption Review'
 					: feedbackType === 'bug'
-						? 'Quran Caption Bug Report'
-						: 'Quran Caption Feature Request'
+						? 'Sunnah Caption Bug Report'
+						: 'Sunnah Caption Feature Request'
 			);
 			endpoint.searchParams.set('email', trimmedEmail);
 			endpoint.searchParams.set(

@@ -6,7 +6,7 @@
 <div
 	class="w-screen h-24 bg-secondary flex items-center px-8 xl:px-12 flex-row rounded-b-2xl border-color border-b"
 >
-	<h1 class="text-3xl font-extrabold tracking-tight">Quran Caption</h1>
+	<h1 class="text-3xl font-extrabold tracking-tight">Sunnah Caption</h1>
 
 	<button class="btn ms-auto btn-icon px-6 py-3">
 		<span class="material-icons-outlined me-2 text-base">settings</span>

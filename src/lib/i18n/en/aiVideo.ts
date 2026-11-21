@@ -1,6 +1,6 @@
 const aiVideo = {
 	aiVideo: 'AI Video',
-	aiVideoDescription: 'Generate a Quran captioned video from a YouTube link or your own audio',
+	aiVideoDescription: 'Generate a Sunnah Captioned video from a YouTube link or your own audio',
 	videoThemeOrTopic: 'Video theme or topic',
 	videoThemePlaceholder:
 		'Visual description for the AI video generator. Describe what you want the AI to do.',

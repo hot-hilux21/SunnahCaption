@@ -87,7 +87,7 @@ const tr = {
 		leaveReview: 'Değerlendirme yap',
 		featureRequestBugReport: 'Özellik İsteği / Hata Raporu',
 		ratingHelps: 'Derecelendirmeniz kaliteye öncelik vermemize yardımcı oluyor.',
-		shareIdeas: "Quran Caption'yi geliştirebilmemiz için fikirleri veya sorunları paylaşın.",
+		shareIdeas: "Sunnah Caption'yi geliştirebilmemiz için fikirleri veya sorunları paylaşın.",
 		closeSupportModal: 'Destek penceresini kapat',
 		review: 'İncele',
 		featureBug: 'Özellik / Hata',
@@ -103,7 +103,7 @@ const tr = {
 		shareThoughtsPlaceholder: 'Uygulama hakkındaki düşüncelerinizi paylaşın...',
 		describeIssuePlaceholder: 'Fikrinizi veya karşılaştığınız sorunu açıklayın...',
 		needHelpJoin: 'Yardıma mı ihtiyacınız var? Katılın',
-		quranCaptionDiscord: 'Quran Caption Discord sunucusu',
+		quranCaptionDiscord: 'Sunnah Caption Discord sunucusu',
 		forSupportAndTutorials: 'Destek ve öğreticiler için.',
 		messageSentToDev: 'Mesajınız doğrudan geliştiriciye gönderilecektir.',
 		sendReview: 'Değerlendirmeyi gönder',
@@ -238,7 +238,7 @@ const tr = {
 		needAssistance: 'Yardıma mı ihtiyacınız var?',
 		assistanceDescription:
 			'Daha fazla ayrıntı için aşağıdaki adımları izleyin veya tüm belgeleri açın.',
-		quranCaptionOverview: 'Quran Caption Genel Bakış',
+		quranCaptionOverview: 'Sunnah Caption Genel Bakış',
 		openOnlineDocumentation: 'Çevrimiçi Belgeleri Aç',
 		githubRepo: 'GitHub deposu',
 		documentation: 'Belgeler',
@@ -269,7 +269,7 @@ const tr = {
 		migrationCompleteTitle: 'Taşıma Tamamlandı!',
 		projectsImportedSuccess: '{count} proje başarıyla içe aktarıldı!',
 		projectsFailedToImport: '{count} proje içe aktarılamadı',
-		projectsImportedV3: "Projeleriniz başarıyla Quran Caption V3'e aktarıldı",
+		projectsImportedV3: "Projeleriniz başarıyla Sunnah Caption V3'e aktarıldı",
 		importResults: 'İçe aktarma sonuçları',
 		successfullyImported: 'Başarıyla İçe Aktarıldı',
 		failedToImport_Label: 'İçe Aktarılamadı',
@@ -629,7 +629,7 @@ const tr = {
 		aiSegmentationFailed: 'AI segmentasyonu başarısız oldu',
 		cloudAlignerUnavailable: 'Bulut hizalayıcı kullanılamıyor',
 		cloudAlignerUnavailableDetails:
-			"Hugging Face Alanına ulaşılamıyor. Bunun nedeni, Quran Caption'den bağımsız olarak bir Hugging Face kesintisi veya Alandaki beklenmeyen bir hata olabilir.",
+			"Hugging Face Alanına ulaşılamıyor. Bunun nedeni, Sunnah Caption'den bağımsız olarak bir Hugging Face kesintisi veya Alandaki beklenmeyen bir hata olabilir.",
 		cloudAlignerUnavailableAdvice:
 			'Hizmetin kurtarılmasını bekleyin, ardından tekrar deneyin. Bu arada oldukça doğru sonuçlar veren local aligner’ı da kullanabilirsiniz. Anlayışınız için teşekkür ederiz.',
 		cloudAlignerSpaceLink: 'Hugging Face Alanını açın',
@@ -1826,10 +1826,10 @@ const tr = {
 		videoAudioFade: 'Video ve Ses Solma',
 		enableDisableFade:
 			'Dışa aktarma sırasında video ve ses solma efektlerini etkinleştirin veya devre dışı bırakın. Fade-in ve fade-out, videonun sorunsuz bir şekilde başlayıp bitmesine yardımcı olur.',
-		quranCaptionPromotion: "Quran Caption'yi tanıtın",
-		addQuranCaptionPromotion: 'Quran Caption promosyon kartı ekleyin',
+		quranCaptionPromotion: "Sunnah Caption'yi tanıtın",
+		addQuranCaptionPromotion: 'Sunnah Caption promosyon kartı ekleyin',
 		quranCaptionPromotionDescription:
-			'Videodan önce veya sonra Quran Caption logosunu ve web sitesini içeren 3 saniyelik bir kart ekler.',
+			'Videodan önce veya sonra Sunnah Caption logosunu ve web sitesini içeren 3 saniyelik bir kart ekler.',
 		quranCaptionPromotionPosition: 'Promosyon pozisyonu',
 		quranCaptionPromotionAtStart: 'Başlangıçta',
 		quranCaptionPromotionAtEnd: 'Sonunda',
@@ -2099,7 +2099,7 @@ const tr = {
 		reflectionAuthDescription:
 			'Quran.com hesabı yalnızca tefekkürnızı kaydettiğinizde veya yayınladığınızda gereklidir.',
 		reflectionPermissionDescription:
-			'Quran Caption, Notes ve QuranReflect için ek bir Quran.com iznine ihtiyaç duyar.',
+			'Sunnah Caption, Notes ve QuranReflect için ek bir Quran.com iznine ihtiyaç duyar.',
 		reflectionConnect: 'Quran.com ile bağlanın',
 		reflectionSubmitting: 'Kaydediliyor…',
 		reflectionPrivateSuccess: 'Quran.com notlarınıza özel olarak kaydedildi.',
@@ -2431,7 +2431,7 @@ const tr = {
 		taskbarAttention:
 			'Görev çubuğu dikkat sinyali, masaüstü bildirimleri kapalı olsa bile etkin kalır.',
 		supportMessage:
-			"Quran Caption'den memnunsanız bağış, uygulamanın sürdürülmesine ve geliştirilmesine yardımcı olur.",
+			"Sunnah Caption'den memnunsanız bağış, uygulamanın sürdürülmesine ve geliştirilmesine yardımcı olur.",
 		donateWithPaypal: 'PayPal ile bağış yapın',
 		donateWithKofi: 'Ko-fi ile bağış yapın',
 		cryptocurrencyWallets: 'Kripto Para Cüzdanları',
@@ -2466,7 +2466,7 @@ const tr = {
 		backupImportFailed: 'Yedekleme içe aktarılamadı',
 		backupFileInvalid: 'Seçilen yedekleme dosyası geçersiz veya bozuk.',
 		unableToOpenProjectsFolder: 'Projeler klasörü açılamıyor',
-		couldNotOpenProjectsDir: 'Quran Caption bu sistemdeki projeler dizinini açamadı.',
+		couldNotOpenProjectsDir: 'Sunnah Caption bu sistemdeki projeler dizinini açamadı.',
 		copiedToClipboard: '{label} panoya kopyalandı',
 		unableToCopyWallet: 'M-cüzdan adresi kopyalanamıyor.',
 		unableToOpen: '{label} açılamıyor.',
@@ -2508,7 +2508,7 @@ const tr = {
 		organizingProjects: 'Projelerin Düzenlenmesi...',
 		organizeProjectFolders: 'Proje Klasörlerini Düzenleyin',
 		aboutDescription:
-			'Quran Caption, Kuran okunuşlarını güzel altyazılı videolara dönüştüren bir masaüstü uygulamasıdır. Paylaşım, öğrenme ve davet için profesyonel kalitede altyazılı videolar oluşturmak üzere ses işlemeyi Kuran metniyle birleştirir.',
+			'Sunnah Caption, Kuran okunuşlarını güzel altyazılı videolara dönüştüren bir masaüstü uygulamasıdır. Paylaşım, öğrenme ve davet için profesyonel kalitede altyazılı videolar oluşturmak üzere ses işlemeyi Kuran metniyle birleştirir.',
 		versionLabel: 'Sürüm {version}',
 		restartTutorial: 'Eğiticiyi Yeniden Başlat',
 		connected: 'Bağlı',
@@ -2518,7 +2518,7 @@ const tr = {
 		signedInAs: '{name} olarak oturum açıldı',
 		finishLoginBrowser:
 			'Bağlantıyı tamamlamak için tarayıcınızda Quran.com oturum açma işlemini tamamlayın.',
-		notConnectedMessage: "Şu anda Quran Caption'yi bir Quran.com hesabı olmadan kullanıyorsunuz.",
+		notConnectedMessage: "Şu anda Sunnah Caption'yi bir Quran.com hesabı olmadan kullanıyorsunuz.",
 		disconnect: 'Bağlantıyı kes',
 		waitingForLogin: 'Giriş bekleniyor...',
 		connectWithQuranCom: 'Quran.com ile bağlanın',
@@ -2530,7 +2530,7 @@ const tr = {
 		pressAKey: 'Bir tuşa basın',
 		videoExportFinished: 'Video dışa aktarma işlemi tamamlandı',
 		videoExportFailed: 'Video dışa aktarma başarısız oldu',
-		usingQuranCaption: "Quran Caption'yi kullanma",
+		usingQuranCaption: "Sunnah Caption'yi kullanma",
 		atHomeMenu: 'Ana Menüde',
 		idle: 'Boşta',
 		creatingQuranVideo: 'Kuran videosu oluşturma',
@@ -2732,7 +2732,7 @@ const tr = {
 		save: 'Kaydet',
 		newVersionAvailable: 'Yeni Sürüm Mevcut',
 		newVersionDescription:
-			"Quran Caption'nin yeni bir sürümü mevcut. Şimdi güncellemek ister misiniz?",
+			"Sunnah Caption'nin yeni bir sürümü mevcut. Şimdi güncellemek ister misiniz?",
 		updateNow: 'Şimdi Güncelle',
 		remindLater: 'Daha Sonra Hatırlat',
 		restartRequired: 'Yeniden Başlatma Gerekli',
@@ -2918,12 +2918,12 @@ const tr = {
 	migration: {
 		migrationComplete: 'Taşıma Tamamlandı!',
 		migratingProjects: 'Projeler Taşınıyor...',
-		v3Migration: 'Quran Caption V3 Geçişi',
+		v3Migration: 'Sunnah Caption V3 Geçişi',
 		projectsImported: 'Projeleriniz içe aktarıldı',
 		pleaseWaitImporting: 'Projeleriniz içe aktarılırken lütfen bekleyin',
 		importV2ToV3: "V2 projelerinizi V3'e aktarın",
 		projectsFound: 'Bulunan Projeler',
-		readyToImport: "Quran Caption V2'den içe aktarılmaya hazır",
+		readyToImport: "Sunnah Caption V2'den içe aktarılmaya hazır",
 		whatWillBeImported: 'İçe aktarılacak içerikler',
 		projectAssets: 'Proje varlıkları ve zaman çizelgesi',
 		projectAssetsDesc: 'Tüm ses/video dosyalarınız ve altyazı zamanlamanız',
@@ -2938,7 +2938,7 @@ const tr = {
 			"Geçiş sırasında okuyucu verilerini ve Kur'an metnini indirmek için aktif bir internet bağlantısı gereklidir.",
 		importProgress: 'İçe Aktarma İlerlemesi',
 		processing: 'İşleme:',
-		couldNotFindV2Data: 'Quran Caption V2 veri dizini bulunamadı',
+		couldNotFindV2Data: 'Sunnah Caption V2 veri dizini bulunamadı',
 		failedToImport: 'İçe aktarılamadı: {name}',
 		migrationFailed: 'Taşıma işlemi başarısız oldu. Lütfen tekrar deneyin.'
 	},
@@ -3088,7 +3088,7 @@ const tr = {
 		finalizingProject: 'Proje sonlandırılıyor...'
 	},
 	donation: {
-		supportFuture: "Quran Caption'nin geleceğini destekleyin.",
+		supportFuture: "Sunnah Caption'nin geleceğini destekleyin.",
 		donationsSupport:
 			'Bağışlar geliştirme süresini, hata düzeltmelerini ve topluluk tarafından talep edilen özellikleri destekler.',
 		makeDonation: 'Bağış yap',
@@ -3134,7 +3134,7 @@ const tr = {
 		errorCopiedToClipboard: 'Hata panoya kopyalandı',
 		failedToCopyError: 'Hata kopyalanamadı',
 		ffmpegUpdateHelp:
-			"FFmpeg sürümünüz çok eski. Bu komutları çalıştırın ve ardından Quran Caption'yi tamamen yeniden başlatın:",
+			"FFmpeg sürümünüz çok eski. Bu komutları çalıştırın ve ardından Sunnah Caption'yi tamamen yeniden başlatın:",
 		youtubePublish: "YouTube'de yayınla",
 		youtubePublishing: "YouTube'ye yükleniyor",
 		youtubePublished: "YouTube'de yayınlandı",
@@ -3187,7 +3187,7 @@ const tr = {
 		batchName: 'Proje grubu adı',
 		batchNamePlaceholder: 'Ramazan tilavetleri',
 		importTitle: 'Bir proje grubunu içe aktar',
-		importDescription: 'Quran Caption projelerini oluşturmadan önce bir CSV dosyasını doğrulayın.',
+		importDescription: 'Sunnah Caption projelerini oluşturmadan önce bir CSV dosyasını doğrulayın.',
 		backToHome: 'Ana Sayfaya Geri Dön',
 		csvFile: 'CSV dosyası',
 		selectCsv: "CSV'yi seçin",

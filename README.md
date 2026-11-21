@@ -34,6 +34,9 @@
 
 ---
 
+
+> **Independent fork notice:** SunnahCaption is an independent fork of QuranCaption. It is not affiliated with, endorsed by, or maintained by the original Quran Caption project. Quran Caption name, logo, and branding are not licensed under the project open-source license. This fork remains subject to the original CC BY-NC 4.0 license and attribution requirements.
+
 ## What is Quran Caption?
 
 Quran Caption is a desktop and mobile video editor built specifically for Quranic recitations. Upload an audio

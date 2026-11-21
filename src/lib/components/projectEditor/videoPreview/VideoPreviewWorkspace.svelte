@@ -1778,7 +1778,7 @@
 	});
 
 	onMount(() => {
-		// Si Quran Caption a été quitté en fullscreen, on enlève le fullscreen.
+		// Si Sunnah Caption a été quitté en fullscreen, on enlève le fullscreen.
 		if (globalState.getVideoPreviewState.isFullscreen) {
 			globalState.getVideoPreviewState.toggleFullScreen();
 		}

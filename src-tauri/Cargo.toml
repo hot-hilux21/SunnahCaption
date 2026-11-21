@@ -1,17 +1,17 @@
 [package]
-name = "qurancaption"
+name = "sunnahcaption"
 version = "3.8.71"
 description = "Transform Quranic recitations into stunning captioned videos with professional quality subtitles and translations in 40+ languages."
 authors = ["Rayane STASZEWSKI"]
 license = "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
-repository = "zonetecde/qurancaption"
+repository = "hot-hilux21/sunnahcaption"
 edition = "2021"
 rust-version = "1.77.2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "qurancaption_lib"
+name = "sunnahcaption_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]

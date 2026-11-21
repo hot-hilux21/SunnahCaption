@@ -225,7 +225,7 @@ export default class MigrationService {
 	}
 
 	/**
-	 * Migre les donnees de Quran Caption 3.1.0 a Quran Caption 3.1.1
+	 * Migre les donnees de Sunnah Caption 3.1.0 a Sunnah Caption 3.1.1
 	 * > Ajout d'un shortcut pour ajouter un custom text clip facilement.
 	 */
 	static FromQC310ToQC311() {
@@ -240,7 +240,7 @@ export default class MigrationService {
 	}
 
 	/**
-	 * Migre les donnees de Quran Caption 3.1.5 a Quran Caption 3.1.6
+	 * Migre les donnees de Sunnah Caption 3.1.5 a Sunnah Caption 3.1.6
 	 * > Modification du shortcut "Set Start to Previous Punctuation" en "Set End to Previous Punctuation"
 	 */
 	static FromQC315ToQC316() {
@@ -519,7 +519,7 @@ export default class MigrationService {
 	}
 
 	/**
-	 * Migre les donnees de Quran Caption 3.1.3 a Quran Caption 3.1.4
+	 * Migre les donnees de Sunnah Caption 3.1.3 a Sunnah Caption 3.1.4
 	 * > Renommage des tracks "CustomText" a "CustomClip"
 	 */
 	static FromQC313ToQC314() {
@@ -542,7 +542,7 @@ export default class MigrationService {
 	}
 
 	/**
-	 * Migre les donnees de Quran Caption 3.2.6 a Quran Caption 3.2.7
+	 * Migre les donnees de Sunnah Caption 3.2.6 a Sunnah Caption 3.2.7
 	 * > Conversion des anciens champs fromYoutube/youtubeUrl/fromMp3Quran/mp3QuranUrl
 	 *   vers le nouveau format sourceUrl/sourceType
 	 */
@@ -843,7 +843,7 @@ export default class MigrationService {
 	}
 
 	/**
-	 * Vérifie si des données de Quran Caption 2 sont présentes
+	 * Vérifie si des données de Sunnah Caption 2 sont présentes
 	 * @returns true si des données sont trouvées, sinon false
 	 */
 	static async hasQCV2Data(): Promise<boolean> {
@@ -867,7 +867,7 @@ export default class MigrationService {
 
 	static async getQCV2Dir(): Promise<string | null> {
 		const userLocalDataDir = await localDataDir();
-		return await join(userLocalDataDir, 'Quran Caption', 'localStorage');
+		return await join(userLocalDataDir, 'Sunnah Caption', 'localStorage');
 	}
 
 	/**

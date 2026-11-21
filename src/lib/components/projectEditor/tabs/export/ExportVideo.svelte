@@ -581,7 +581,7 @@
 	}
 
 	/**
-	 * Sauvegarde l'activation globale de la carte promotionnelle Quran Caption.
+	 * Sauvegarde l'activation globale de la carte promotionnelle Sunnah Caption.
 	 * @param {boolean} enabled Nouvel état de l'option.
 	 * @returns {Promise<void>} Promesse terminée après la sauvegarde du réglage.
 	 */

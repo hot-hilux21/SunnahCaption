@@ -344,7 +344,7 @@ const editor = {
 	aiSegmentationFailed: 'AI segmentation failed',
 	cloudAlignerUnavailable: 'Cloud aligner unavailable',
 	cloudAlignerUnavailableDetails:
-		'The Hugging Face Space is unreachable. This may be due to a Hugging Face outage or an unexpected error in the Space, independently of Quran Caption.',
+		'The Hugging Face Space is unreachable. This may be due to a Hugging Face outage or an unexpected error in the Space, independently of Sunnah Caption.',
 	cloudAlignerUnavailableAdvice:
 		'Wait for the service to recover, then try again. In the meantime, you can use the local aligner, which also provides very accurate results. Thank you for your understanding.',
 	cloudAlignerSpaceLink: 'Open the Hugging Face Space',

@@ -195,7 +195,7 @@ export async function getCuratedReflections(
 	return Array.isArray(payload.reflections) ? payload.reflections : [];
 }
 
-/** Crée une note Quran.com privée via le proxy Quran Caption. */
+/** Crée une note Quran.com privée via le proxy Sunnah Caption. */
 export async function createPrivateReflectionNote(
 	accessToken: string,
 	body: string,

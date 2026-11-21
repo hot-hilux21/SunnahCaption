@@ -3,5 +3,5 @@
 
 fn main() {
     let _ = fix_path_env::fix();
-    qurancaption_lib::run();
+    sunnahcaption_lib::run();
 }

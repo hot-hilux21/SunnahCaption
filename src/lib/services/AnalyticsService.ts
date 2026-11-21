@@ -369,7 +369,7 @@ export class AnalyticsService {
 			const appVersion = await Promise.race([versionPromise, timeoutPromise]);
 
 			posthog.register({
-				app_name: 'Quran Caption',
+				app_name: 'Sunnah Caption',
 				platform: 'desktop',
 				app_platform: 'desktop',
 				analytics_schema_version: 2,
@@ -419,7 +419,7 @@ export class AnalyticsService {
 
 		const sanitizedProperties = {
 			...sanitizeAnalyticsProperties(properties),
-			app_name: 'Quran Caption',
+			app_name: 'Sunnah Caption',
 			app_locale: get(locale)
 		};
 		if (this.state !== 'ready') {

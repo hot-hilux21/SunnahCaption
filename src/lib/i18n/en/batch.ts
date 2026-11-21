@@ -5,7 +5,7 @@ const batch = {
 	batchName: 'Batch name',
 	batchNamePlaceholder: 'Ramadan recitations',
 	importTitle: 'Import a batch',
-	importDescription: 'Validate a CSV file before creating its Quran Caption projects.',
+	importDescription: 'Validate a CSV file before creating its Sunnah Caption projects.',
 	backToHome: 'Back to Home',
 	csvFile: 'CSV file',
 	selectCsv: 'Select CSV',

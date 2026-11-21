@@ -87,7 +87,7 @@ const de = {
 		leaveReview: 'Bewertung hinterlassen',
 		featureRequestBugReport: 'Funktionswunsch / Fehlerbericht',
 		ratingHelps: 'Ihre Bewertung hilft uns, die Qualität zu priorisieren.',
-		shareIdeas: 'Teilen Sie Ideen oder Probleme, um Quran Caption zu verbessern.',
+		shareIdeas: 'Teilen Sie Ideen oder Probleme, um Sunnah Caption zu verbessern.',
 		closeSupportModal: 'Support-Fenster schließen',
 		review: 'Bewertung',
 		featureBug: 'Funktion / Fehler',
@@ -103,7 +103,7 @@ const de = {
 		shareThoughtsPlaceholder: 'Teilen Sie Ihre Gedanken zur App...',
 		describeIssuePlaceholder: 'Beschreiben Sie Ihre Idee oder das aufgetretene Problem...',
 		needHelpJoin: 'Brauchen Sie Hilfe? Treten Sie dem',
-		quranCaptionDiscord: 'Quran Caption Discord-Server',
+		quranCaptionDiscord: 'Sunnah Caption Discord-Server',
 		forSupportAndTutorials: 'für Support und Tutorials bei.',
 		messageSentToDev: 'Ihre Nachricht wird direkt an den Entwickler gesendet.',
 		sendReview: 'Bewertung senden',
@@ -238,7 +238,7 @@ const de = {
 		needAssistance: 'Brauchen Sie Hilfe?',
 		assistanceDescription:
 			'Sehen Sie sich das Video unten an oder öffnen Sie die vollständige Dokumentation für weitere Details.',
-		quranCaptionOverview: 'Quran Caption Übersicht',
+		quranCaptionOverview: 'Sunnah Caption Übersicht',
 		openOnlineDocumentation: 'Online-Dokumentation öffnen',
 		githubRepo: 'GitHub-Repository',
 		documentation: 'Dokumentation',
@@ -270,7 +270,7 @@ const de = {
 		migrationCompleteTitle: 'Migration abgeschlossen!',
 		projectsImportedSuccess: '{count} Projekte erfolgreich importiert!',
 		projectsFailedToImport: '{count} Projekte konnten nicht importiert werden',
-		projectsImportedV3: 'Ihre Projekte wurden erfolgreich in Quran Caption V3 importiert',
+		projectsImportedV3: 'Ihre Projekte wurden erfolgreich in Sunnah Caption V3 importiert',
 		importResults: 'Importergebnisse',
 		successfullyImported: 'Erfolgreich importiert',
 		failedToImport_Label: 'Import fehlgeschlagen',
@@ -969,7 +969,7 @@ const de = {
 		aiSegmentationFailed: 'KI-Segmentierung fehlgeschlagen',
 		cloudAlignerUnavailable: 'Cloud-Aligner nicht verfügbar',
 		cloudAlignerUnavailableDetails:
-			'Der Hugging Face Space ist nicht erreichbar. Die Ursache kann ein Ausfall bei Hugging Face oder ein unerwarteter Fehler im Space sein, unabhängig von Quran Caption.',
+			'Der Hugging Face Space ist nicht erreichbar. Die Ursache kann ein Ausfall bei Hugging Face oder ein unerwarteter Fehler im Space sein, unabhängig von Sunnah Caption.',
 		cloudAlignerUnavailableAdvice:
 			'Warten Sie, bis der Dienst wieder verfügbar ist, und versuchen Sie es erneut. In der Zwischenzeit können Sie den lokalen Aligner verwenden, der ebenfalls sehr genaue Ergebnisse liefert. Vielen Dank für Ihr Verständnis.',
 		cloudAlignerSpaceLink: 'Hugging Face Space öffnen',
@@ -2160,7 +2160,7 @@ const de = {
 		reflectionAuthDescription:
 			'Ein Quran.com-Konto ist nur erforderlich, wenn du deine Reflexion speicherst oder veröffentlichst.',
 		reflectionPermissionDescription:
-			'Quran Caption benötigt eine zusätzliche Quran.com-Berechtigung für Notizen und QuranReflect.',
+			'Sunnah Caption benötigt eine zusätzliche Quran.com-Berechtigung für Notizen und QuranReflect.',
 		reflectionConnect: 'Mit Quran.com verbinden',
 		reflectionSubmitting: 'Wird gespeichert…',
 		reflectionPrivateSuccess: 'Privat in deinen Quran.com-Notizen gespeichert.',
@@ -2224,7 +2224,7 @@ const de = {
 		videoAudioFade: 'Video- und Audio-Ein-/Ausblendung',
 		enableDisableFade:
 			'Aktivieren oder deaktivieren Sie Video- und Audio-Ein-/Ausblendeffekte beim Export. Ein- und Ausblendung sorgen für einen sanften Start und ein sanftes Ende.',
-		quranCaptionPromotion: 'Quran Caption bewerben',
+		quranCaptionPromotion: 'Sunnah Caption bewerben',
 		addQuranCaptionPromotion: 'Eine Quran-Caption-Werbekarte hinzufügen',
 		quranCaptionPromotionDescription:
 			'Fügt vor oder nach dem Video eine 3-sekündige Karte mit dem Quran-Caption-Logo und der Website ein.',
@@ -2785,7 +2785,7 @@ const de = {
 		taskbarAttention:
 			'Die Taskleisten-Aufmerksamkeitsanzeige bleibt aktiviert, auch wenn Desktop-Benachrichtigungen deaktiviert sind.',
 		supportMessage:
-			'Wenn Ihnen Quran Caption gefällt, hilft eine Spende, die App zu erhalten und zu verbessern.',
+			'Wenn Ihnen Sunnah Caption gefällt, hilft eine Spende, die App zu erhalten und zu verbessern.',
 		donateWithPaypal: 'Spenden mit PayPal',
 		donateWithKofi: 'Spenden mit Ko-fi',
 		cryptocurrencyWallets: 'Kryptowährungs-Wallets',
@@ -2821,7 +2821,7 @@ const de = {
 		backupFileInvalid: 'Die ausgewählte Backup-Datei ist ungültig oder beschädigt.',
 		unableToOpenProjectsFolder: 'Projektordner konnte nicht geöffnet werden',
 		couldNotOpenProjectsDir:
-			'Quran Caption konnte das Projektverzeichnis auf diesem System nicht öffnen.',
+			'Sunnah Caption konnte das Projektverzeichnis auf diesem System nicht öffnen.',
 		copiedToClipboard: '{label} in die Zwischenablage kopiert',
 		unableToCopyWallet: 'Wallet-Adresse konnte nicht kopiert werden.',
 		unableToOpen: '{label} konnte nicht geöffnet werden.',
@@ -2863,7 +2863,7 @@ const de = {
 		organizingProjects: 'Projekte werden organisiert...',
 		organizeProjectFolders: 'Projektordner organisieren',
 		aboutDescription:
-			'Quran Caption ist eine Desktop-Anwendung, die Koranrezitationen in wunderschön untertitelte Videos verwandelt. Sie kombiniert Audioverarbeitung mit Korantext, um professionell untertitelte Videos zum Teilen, Lernen und für die Dawah zu erstellen.',
+			'Sunnah Caption ist eine Desktop-Anwendung, die Koranrezitationen in wunderschön untertitelte Videos verwandelt. Sie kombiniert Audioverarbeitung mit Korantext, um professionell untertitelte Videos zum Teilen, Lernen und für die Dawah zu erstellen.',
 		versionLabel: 'Version {version}',
 		restartTutorial: 'Tutorial neu starten',
 		connected: 'Verbunden',
@@ -2873,7 +2873,7 @@ const de = {
 		signedInAs: 'Angemeldet als {name}',
 		finishLoginBrowser:
 			'Schließen Sie die Quran.com-Anmeldung in Ihrem Browser ab, um die Verbindung herzustellen.',
-		notConnectedMessage: 'Sie verwenden Quran Caption derzeit ohne Quran.com-Konto.',
+		notConnectedMessage: 'Sie verwenden Sunnah Caption derzeit ohne Quran.com-Konto.',
 		disconnect: 'Trennen',
 		waitingForLogin: 'Warte auf Anmeldung...',
 		connectWithQuranCom: 'Mit Quran.com verbinden',
@@ -2885,7 +2885,7 @@ const de = {
 		pressAKey: 'Taste drücken',
 		videoExportFinished: 'Videoexport abgeschlossen',
 		videoExportFailed: 'Videoexport fehlgeschlagen',
-		usingQuranCaption: 'Verwendet Quran Caption',
+		usingQuranCaption: 'Verwendet Sunnah Caption',
 		atHomeMenu: 'Im Hauptmenü',
 		idle: 'Inaktiv',
 		creatingQuranVideo: 'Erstellt ein Koranvideo',
@@ -3094,7 +3094,7 @@ const de = {
 		save: 'Speichern',
 		newVersionAvailable: 'Neue Version verfügbar',
 		newVersionDescription:
-			'Eine neue Version von Quran Caption ist verfügbar. Möchten Sie jetzt aktualisieren?',
+			'Eine neue Version von Sunnah Caption ist verfügbar. Möchten Sie jetzt aktualisieren?',
 		updateNow: 'Jetzt aktualisieren',
 		remindLater: 'Später erinnern',
 		restartRequired: 'Neustart erforderlich',
@@ -3283,12 +3283,12 @@ const de = {
 	migration: {
 		migrationComplete: 'Migration abgeschlossen!',
 		migratingProjects: 'Projekte werden migriert...',
-		v3Migration: 'Quran Caption V3-Migration',
+		v3Migration: 'Sunnah Caption V3-Migration',
 		projectsImported: 'Ihre Projekte wurden importiert',
 		pleaseWaitImporting: 'Bitte warten Sie, während Ihre Projekte importiert werden',
 		importV2ToV3: 'Importieren Sie Ihre V2-Projekte in V3',
 		projectsFound: 'Projekte gefunden',
-		readyToImport: 'Bereit zum Import aus Quran Caption V2',
+		readyToImport: 'Bereit zum Import aus Sunnah Caption V2',
 		whatWillBeImported: 'Was importiert wird',
 		projectAssets: 'Projektelemente und Timeline',
 		projectAssetsDesc: 'Alle Ihre Audio-/Videodateien und Untertitel-Zeitdaten',
@@ -3303,7 +3303,7 @@ const de = {
 			'Eine aktive Internetverbindung ist erforderlich, um Rezitatorendaten und Korantext während der Migration herunterzuladen.',
 		importProgress: 'Importfortschritt',
 		processing: 'Verarbeitung:',
-		couldNotFindV2Data: 'Quran Caption V2-Datenverzeichnis konnte nicht gefunden werden',
+		couldNotFindV2Data: 'Sunnah Caption V2-Datenverzeichnis konnte nicht gefunden werden',
 		failedToImport: 'Import fehlgeschlagen: {name}',
 		migrationFailed: 'Der Migrationsvorgang ist fehlgeschlagen. Bitte versuchen Sie es erneut.'
 	},
@@ -3458,7 +3458,7 @@ const de = {
 		finalizingProject: 'Projekt wird finalisiert...'
 	},
 	donation: {
-		supportFuture: 'Unterstützen Sie die Zukunft von Quran Caption.',
+		supportFuture: 'Unterstützen Sie die Zukunft von Sunnah Caption.',
 		donationsSupport:
 			'Spenden unterstützen die Entwicklungszeit, Fehlerbehebungen und von der Community gewünschte Funktionen.',
 		makeDonation: 'Spenden',
@@ -3506,7 +3506,7 @@ const de = {
 		errorCopiedToClipboard: 'Fehler in die Zwischenablage kopiert',
 		failedToCopyError: 'Fehler konnte nicht kopiert werden',
 		ffmpegUpdateHelp:
-			'Deine FFmpeg-Version ist zu alt. Führe diese Befehle aus und starte Quran Caption danach vollständig neu:',
+			'Deine FFmpeg-Version ist zu alt. Führe diese Befehle aus und starte Sunnah Caption danach vollständig neu:',
 		youtubePublish: 'Auf YouTube veröffentlichen',
 		youtubePublishing: 'Upload zu YouTube',
 		youtubePublished: 'Auf YouTube veröffentlicht',

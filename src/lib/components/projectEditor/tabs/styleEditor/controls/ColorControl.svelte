@@ -128,7 +128,7 @@
 	}
 
 	/**
-	 * Capture l'écran visible sans masquer Quran Caption.
+	 * Capture l'écran visible sans masquer Sunnah Caption.
 	 * @returns {Promise<void>}
 	 */
 	async function openScreenColorPicker(): Promise<void> {

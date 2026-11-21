@@ -332,7 +332,7 @@ const editor = {
 	aiSegmentationFailed: 'فشل تجزئة الذكاء الاصطناعي',
 	cloudAlignerUnavailable: 'أداة المحاذاة السحابية غير متاحة',
 	cloudAlignerUnavailableDetails:
-		'مساحة Hugging Face غير متاحة. قد يكون السبب عطلاً في Hugging Face أو خطأً استثنائياً في المساحة، بصورة مستقلة عن Quran Caption.',
+		'مساحة Hugging Face غير متاحة. قد يكون السبب عطلاً في Hugging Face أو خطأً استثنائياً في المساحة، بصورة مستقلة عن Sunnah Caption.',
 	cloudAlignerUnavailableAdvice:
 		'انتظروا عودة الخدمة ثم حاولوا مجدداً. يمكنكم في هذه الأثناء استخدام أداة المحاذاة المحلية، التي تقدم أيضاً نتائج دقيقة جداً. شكراً لتفهمكم.',
 	cloudAlignerSpaceLink: 'فتح مساحة Hugging Face',
