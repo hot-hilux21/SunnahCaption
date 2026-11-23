@@ -1,6 +1,7 @@
 <script lang="ts">
 	import DownloadFromQuranicUniversalAudioSection from './DownloadFromQuranicUniversalAudioSection.svelte';
 	import DownloadFromYouTubeSection from './DownloadFromYouTubeSection.svelte';
+	import NasheedSuggestions from './NasheedSuggestions.svelte';
 	import ProjectAssetSection from './ProjectAssetSection.svelte';
 	import StockMediaLibrary from './StockMediaLibrary.svelte';
 	import LL from '$lib/i18n/i18n-svelte';
@@ -46,5 +47,6 @@
 
 		<DownloadFromQuranicUniversalAudioSection />
 		<DownloadFromYouTubeSection />
+		<NasheedSuggestions />
 	{/if}
 </div>
