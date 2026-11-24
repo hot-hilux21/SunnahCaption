@@ -3,9 +3,10 @@
 	import OpenAISettingsFields from '$lib/components/ai/OpenAISettingsFields.svelte';
 	import LL from '$lib/i18n/i18n-svelte';
 	import StockMediaSettings from './StockMediaSettings.svelte';
+import VoiceApiSettings from './VoiceApiSettings.svelte';
 	import HuggingFaceAccountSettings from './HuggingFaceAccountSettings.svelte';
 
-	let activeTab = $state<'ai' | 'stock' | 'hugging-face'>('ai');
+	let activeTab = $state<'ai' | 'stock' | 'voice' | 'hugging-face'>('ai');
 	let copy = $derived(
 		$LL.settings as unknown as { apiKeys: () => string; huggingFaceAccount: () => string }
 	);
@@ -46,6 +47,18 @@
 		<button
 			type="button"
 			role="tab"
+			aria-selected={activeTab === 'voice'}
+			class="flex-1 rounded-lg px-3 py-2 text-sm font-medium transition-colors"
+			class:bg-accent-primary={activeTab === 'voice'}
+			class:text-black={activeTab === 'voice'}
+			class:text-secondary={activeTab !== 'voice'}
+			onclick={() => (activeTab = 'voice')}
+		>
+			{$LL.settings.voiceApi()}
+		</button>
+		<button
+			type="button"
+			role="tab"
 			aria-selected={activeTab === 'hugging-face'}
 			class="flex-1 rounded-lg px-3 py-2 text-sm font-medium transition-colors"
 			class:bg-accent-primary={activeTab === 'hugging-face'}
@@ -75,6 +88,8 @@
 		</div>
 	{:else if activeTab === 'stock'}
 		<StockMediaSettings />
+	{:else if activeTab === 'voice'}
+		<VoiceApiSettings />
 	{:else}
 		<HuggingFaceAccountSettings />
 	{/if}

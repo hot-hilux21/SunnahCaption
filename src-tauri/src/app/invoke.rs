@@ -80,6 +80,8 @@ pub fn register_invoke_handler(builder: tauri::Builder<tauri::Wry>) -> tauri::Bu
         commands::youtube::youtube_upload_video,
         commands::stock_media::download_pinterest_hls,
         commands::stock_media::search_stock_media,
+        commands::voice::generate_elevenlabs_tts,
+        commands::voice::generate_free_arabic_tts,
         commands::updater::check_qc_update,
     ])
 }

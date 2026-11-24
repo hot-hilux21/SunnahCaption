@@ -30,3 +30,5 @@ pub mod updater;
 pub mod waveform;
 /// Commandes de connexion et publication YouTube.
 pub mod youtube;
+/// Commandes de generation vocale.
+pub mod voice;

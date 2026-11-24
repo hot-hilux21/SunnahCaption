@@ -2,7 +2,7 @@
 
 <img src="https://qurancaption.com/icon.png" width="100" alt="Quran Caption logo" />
 
-<h1>Quran Caption</h1>
+<h1>Sunnah Caption</h1>
 
 <p><strong>Create captioned Quran videos — AI-powered subtitles, 40+ languages, full visual control.</strong></p>
 

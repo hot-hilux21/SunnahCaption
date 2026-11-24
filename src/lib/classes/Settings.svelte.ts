@@ -44,6 +44,14 @@ export type StockMediaSettings = {
 	pixabayApiKey: string;
 };
 
+export type VoiceApiSettings = {
+	provider: "elevenlabs" | "free";
+	apiKey: string;
+	voiceId: string;
+	modelId: string;
+	language: string;
+};
+
 export type PerformanceProfile = 'balanced' | 'max_quality';
 
 export type AITranslationSettings = {
@@ -190,6 +198,14 @@ export default class Settings extends SerializableBase {
 	stockMediaSettings = $state<StockMediaSettings>({
 		pexelsApiKey: '',
 		pixabayApiKey: ''
+	});
+
+	voiceApiSettings = $state<VoiceApiSettings>({
+		provider: "elevenlabs",
+		apiKey: "",
+		voiceId: "",
+		modelId: "eleven_multilingual_v2",
+		language: "ar"
 	});
 
 	exportSettings = $state<ExportSettings>({ ...Settings.DEFAULT_EXPORT_SETTINGS });
@@ -691,6 +707,16 @@ export default class Settings extends SerializableBase {
 			settings.stockMediaSettings = {
 				pexelsApiKey: '',
 				pixabayApiKey: ''
+			};
+			shouldSave = true;
+		}
+		if (!settings.voiceApiSettings || typeof settings.voiceApiSettings !== 'object') {
+			settings.voiceApiSettings = {
+				provider: "elevenlabs",
+				apiKey: "",
+				voiceId: "",
+				modelId: "eleven_multilingual_v2",
+				language: "ar"
 			};
 			shouldSave = true;
 		}
